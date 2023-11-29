@@ -1,0 +1,231 @@
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+372.709448,0.060640,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+372.845192,1.638520,,,,,,,,,,3.814697,2.273570,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+380.580709,0.557150,,,,,,,,,,3.814697,6.686333,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+381.196419,0.004736,,,,,,,,,,0.000385,0.079446,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+381.232707,0.301214,7813,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+381.553921,0.017632,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+381.791456,0.421502,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+382.270142,0.555069,,,,,,,,,,3.814697,6.711400,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+344.989666,0.061056,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+345.089986,1.613338,,,,,,,,,,3.814697,2.309058,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+354.825086,1.845402,,,,,,,,,,3.814697,2.018688,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+356.820343,0.004992,,,,,,,,,,0.000385,0.075371,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+356.849751,0.139263,7813,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+357.018358,0.017536,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+357.295893,0.420159,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+357.749940,0.896316,,,,,,,,,,3.814697,4.156224,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+353.285617,0.060768,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+353.460688,1.837081,,,,,,,,,,3.814697,2.027831,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+362.872557,0.530238,,,,,,,,,,3.814697,7.025695,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+363.523818,0.004736,,,,,,,,,,0.000385,0.079446,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+363.574826,0.138528,7813,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+363.750986,0.017535,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+364.026697,0.423518,7813,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+364.480871,0.672861,,,,,,,,,,3.814697,5.536493,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+365.958102,0.060672,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+366.060630,1.559226,,,,,,,,,,3.814697,2.389192,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+373.304634,0.550557,,,,,,,,,,3.814697,6.766403,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+373.938871,0.005280,,,,,,,,,,0.003819,0.706253,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+373.960695,0.144991,7813,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+374.124118,0.142112,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+374.445557,0.523966,7813,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","",135
+375.015699,0.710749,,,,,,,,,,3.814697,5.241358,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+341.499453,0.060960,7813,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+341.603196,1.797402,,,,,,,,,,3.814697,2.072597,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+349.954173,0.555134,,,,,,,,,,3.814697,6.710615,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+350.554139,0.005600,,,,,,,,,,0.003819,0.665896,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+350.575899,0.227071,7813,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+350.824186,0.142175,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+351.142393,0.524030,7813,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+351.687127,0.595710,,,,,,,,,,3.814697,6.253530,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+357.218798,0.061119,7813,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+357.335821,1.905337,,,,,,,,,,3.814697,1.955187,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+366.484331,0.532766,,,,,,,,,,3.814697,6.992357,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+367.092873,0.005312,,,,,,,,,,0.003819,0.701998,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+367.143497,0.225183,7813,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+367.389000,0.142527,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+367.723495,0.510654,7813,1,1,128,1,1,8,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+368.257061,0.570398,,,,,,,,,,3.814697,6.531037,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+341.876014,0.572098,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+342.533968,25.956158,,,,,,,,,,38.146973,1.435224,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+414.737110,5.818069,,,,,,,,,,38.146973,6.402967,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+420.724268,0.004768,,,,,,,,,,0.000385,0.078912,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+420.793708,2.990635,78125,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+423.813495,0.017888,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+424.102360,4.151727,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","",135
+428.284839,5.913909,,,,,,,,,,38.146973,6.299201,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+338.075190,0.572540,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+338.690066,28.579998,,,,,,,,,,38.146973,1.303461,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+411.267238,6.597492,,,,,,,,,,38.146973,5.646525,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+418.004921,0.004736,,,,,,,,,,0.000385,0.079446,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+418.043608,1.334039,78125,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+419.402191,0.018304,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+419.712877,4.152548,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+423.905873,6.439956,,,,,,,,,,38.146973,5.784652,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+356.310761,0.572412,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+357.069092,26.212809,,,,,,,,,,38.146973,1.421172,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+426.653501,5.639065,,,,,,,,,,38.146973,6.606220,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+432.435445,0.004864,,,,,,,,,,0.000385,0.077355,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+432.490997,1.324310,78125,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+433.841675,0.018400,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+434.113641,4.161123,78125,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+438.303372,6.216084,,,,,,,,,,38.146973,5.992986,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+346.613675,0.572668,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+347.255942,26.029414,,,,,,,,,,38.146973,1.431185,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+415.920828,6.039509,,,,,,,,,,38.146973,6.168201,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+422.205680,0.005216,,,,,,,,,,0.003819,0.714919,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+422.272303,1.403062,78125,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+423.718725,0.142143,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+424.565919,5.231579,78125,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","v",135
+429.839833,6.811984,,,,,,,,,,38.146973,5.468730,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+374.375455,0.572604,78125,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+375.060443,25.892262,,,,,,,,,,38.146973,1.438766,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+444.835431,5.870646,,,,,,,,,,38.146973,6.345622,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+450.774844,0.005216,,,,,,,,,,0.003819,0.714919,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+450.811836,2.196753,78125,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+453.046924,0.142591,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+453.488649,5.235387,78125,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+458.753667,6.262676,,,,,,,,,,38.146973,5.948400,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+ms,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+348.276484,0.572636,78125,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+348.942623,28.225939,,,,,,,,,,38.146973,1.319811,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+426.625034,6.011732,,,,,,,,,,38.146973,6.196701,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+432.730718,0.005280,,,,,,,,,,0.003819,0.706253,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+432.812285,2.178512,78125,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+435.025837,0.141727,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+435.478090,5.088507,78125,1,1,128,1,1,8,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+440.601028,6.463665,,,,,,,,,,38.146973,5.763433,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+0.342881,5.687146,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.348614,261.532659,,,,,,,,,,381.469727,1.424407,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.047895,56.836927,,,,,,,,,,381.469727,6.554349,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.104927,0.004640,,,,,,,,,,0.000385,0.081089,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+1.104965,29.350438,781250,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+1.134350,0.017664,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+1.135184,43.979226,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","v",135
+1.179206,55.433772,,,,,,,,,,381.469727,6.720254,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+0.339137,5.685194,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.344906,258.858132,,,,,,,,,,381.469727,1.439124,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.040155,56.725153,,,,,,,,,,381.469727,6.567264,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.097183,0.004640,,,,,,,,,,0.000385,0.081089,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+1.097232,13.275361,781250,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+1.110545,0.018496,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+1.111382,43.986011,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+1.155406,54.807571,,,,,,,,,,381.469727,6.797036,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+0.339598,5.686055,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.345332,249.248317,,,,,,,,,,381.469727,1.494610,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.034764,58.407904,,,,,,,,,,381.469727,6.378059,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.093409,0.004544,,,,,,,,,,0.000385,0.082802,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+1.093465,13.172071,781250,1,1,128,1,1,8,0,404,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+1.106675,0.018336,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+1.107485,43.822464,781250,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+1.151354,58.420928,,,,,,,,,,381.469727,6.376637,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,B,MB,GB/s,,,,,,,
+0.341148,5.685322,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.346936,258.912085,,,,,,,,,,381.469727,1.438824,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.047535,59.803372,,,,,,,,,,381.469727,6.229231,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.107525,0.005024,,,,,,,,,,0.003819,0.742240,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+1.107633,13.963548,781250,1,1,128,1,1,8,0,0,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int)",128
+1.121635,0.141631,1,1,1,1,1,1,20,0,0,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+1.122549,120.655662,781250,1,1,128,1,1,9,0,0,,,,,"Tesla K80 (0)","1","7","sv",135
+1.243256,57.374467,,,,,,,,,,381.469727,6.492941,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+0.356010,5.683371,781250,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.362455,264.392858,,,,,,,,,,381.469727,1.408998,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.052572,57.611654,,,,,,,,,,381.469727,6.466210,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.110380,0.005024,,,,,,,,,,0.003819,0.742240,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",126
+1.110419,21.844436,781250,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",128
+1.132301,0.142079,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",131
+1.133233,120.651928,781250,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",135
+1.253964,57.191434,,,,,,,,,,381.469727,6.513721,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",138
+
+
+
+"Start","Duration","Grid X","Grid Y","Grid Z","Block X","Block Y","Block Z","Registers Per Thread","Static SMem","Dynamic SMem","Size","Throughput","SrcMemType","DstMemType","Device","Context","Stream","Name","Correlation_ID"
+s,ms,,,,,,,,B,KB,MB,GB/s,,,,,,,
+0.348288,5.685163,781250,1,1,128,1,1,9,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_initArray(int*, int, int, int)",110
+0.354148,261.340573,,,,,,,,,,381.469727,1.425454,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",118
+1.055160,58.687581,,,,,,,,,,381.469727,6.347664,"Pageable","Device","Tesla K80 (0)","1","7","[CUDA memcpy HtoD]",124
+1.114060,0.005280,,,,,,,,,,0.003819,0.706253,"Device",,"Tesla K80 (0)","1","7","[CUDA memset]",128
+1.114125,21.667351,781250,1,1,128,1,1,8,0,3.910156,,,,,"Tesla K80 (0)","1","7","gpu_fullC(int*, int*, int, int)",130
+1.135862,0.142815,1,1,1,1,1,1,20,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_sumC(int*, int)",133
+1.136924,120.414814,781250,1,1,128,1,1,8,0,0.000000,,,,,"Tesla K80 (0)","1","7","gpu_lastKernel(int*, int*, int*, int)",137
+1.257437,57.377770,,,,,,,,,,381.469727,6.492567,"Device","Pageable","Tesla K80 (0)","1","7","[CUDA memcpy DtoH]",140
